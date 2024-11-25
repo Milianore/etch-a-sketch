@@ -1,0 +1,27 @@
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: auto;
+    box-sizing: content-box;
+    border: 1px black solid;
+}
+.tile {
+    width: 6.25vh;
+    height: 6.25vh;
+    border: 1px black solid;
+}
+
+.btn {
+    margin: 100px;
+}
